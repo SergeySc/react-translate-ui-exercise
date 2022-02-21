@@ -1,0 +1,28 @@
+.footer {
+  background-image: linear-gradient(
+    to right,
+    rgb(86, 164, 216),
+    rgb(84, 165, 147)
+  );
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  z-index: 2;
+}
+
+.translate-button {
+  /* border: 1px solid white; */
+  border: none;
+  color: rgb(86, 164, 216);
+  font-weight: bold;
+  float: right;
+  margin: 25px;
+}
+
+.translate-button:hover {
+  /* border: 1px solid rgb(86, 164, 216); */
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}

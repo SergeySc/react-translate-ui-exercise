@@ -1,0 +1,14 @@
+.translated-text-div {
+  text-align: left;
+  padding: 7px;
+  outline: none;
+  min-height: 21px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: -11px;
+}
+
+.translated-text-div:empty:before {
+  content: attr(data-text);
+  opacity: 0.4;
+}

@@ -1,0 +1,32 @@
+.card {
+  padding: 25px 20px 20px 20px;
+}
+.card:empty {
+  padding-bottom: 100%;
+}
+
+p {
+  margin: 7px;
+  text-align: justify;
+}
+
+.input {
+  font-family: Verdana;
+  width: 100%;
+  border-style: none;
+  font-size: 20px;
+  padding: 7px;
+}
+.input::placeholder {
+  opacity: 0.4;
+}
+.input[readonly] {
+  color: transparent;
+  text-shadow: 0 0 0 black;
+}
+
+/* Just for the record nice piece of css
+.editable-div:empty:not(:focus):before {
+  content: attr(data-text);
+  opacity: 0.4;
+} */
